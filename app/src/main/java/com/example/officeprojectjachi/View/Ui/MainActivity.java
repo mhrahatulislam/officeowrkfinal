@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
         // Initialize the adapter
         businessAdapter = new BusinessAdapter(MainActivity.this, new ArrayList<>());
         recyclerView.setAdapter(businessAdapter);
-
         faceData();
     }
 
